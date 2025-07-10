@@ -1,0 +1,134 @@
+/* style.css */
+
+/* Default Theme (Light) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: left;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+  }
+  
+  h2 {
+    color: #4CAF50;
+  }
+
+  a {
+    color: #4CAF50;
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 10px 0 5px;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Dark Theme */
+  body.dark-theme {
+    background-color: #222;
+    color: #eee;
+  }
+  
+  body.dark-theme header {
+    background-color: #333;
+  }
+  
+  body.dark-theme nav a {
+    color: #eee;
+  }
+  
+  body.dark-theme h2 {
+    color: #90ee90;
+  }
+  
+  body.dark-theme button {
+    background-color: #555;
+  }
+  
+  body.dark-theme button:hover {
+    background-color: #777;
+  }
+  
